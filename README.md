@@ -11,9 +11,9 @@ bash backip.sh
 
 : Después que ejecutan la script poner un puerto ej[4444]
 
-luego abren una session y abren a la escucha ese puerto con netcat
+netcat se estará ejecutando en segundo plano
 
-abren otra session y ese puerto lo abren con ngrok tcp (puerto)
+luego abren una session y ese puerto lo abren con ngrok tcp (puerto)
 
 y listo se le guardara dos archivos en su celular
 

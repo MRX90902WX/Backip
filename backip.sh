@@ -76,11 +76,11 @@ echo -n "[~]Escriba un puerto >> "
 read a
 sleep 1
 echo ""
+nc -lnvp $a &
 echo "(Ejecutando netcat en segundo plano)"
 echo "(Abra una nueva session y ejecute)"
 echo "ngrok tcp $a"
 setterm -foreground red
-nc -lnvp $a & 
 echo ""
 echo -e "\e[1;37;41mConfigure su IP y Puerto Atacante\e[0m"
 echo ""
